@@ -1,12 +1,17 @@
-.quemsomos_vantagens{
+.quemsomos{
     height: 170vh;
-    background: url('../assets/bg_quemsomos_vantagens.jpg') center/cover no-repeat;
-    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.8) url('../assets/bg_quemsomos_vantagens.jpg') center/cover no-repeat;
+    background-blend-mode: multiply;
+}
+
+.titlesomos{
+    margin-left: 20%;
+    padding-top: 10%;
 }
 
 /*QUEM SOMOS*/
 
-.quemsomos{
-    height: 85vh;
-    background-color: rgba(0, 0, 0, 0.9); 
+
+@media screen and (max-width: 823px) {
+
 }
