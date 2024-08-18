@@ -5,8 +5,13 @@
 }
 
 .titlesomos{
-    margin-left: 20%;
+    margin-left: 16%;
     padding-top: 10%;
+}
+
+.contenier-content{
+    background-color: var(--color-neutral-400);
+    align-items: center;
 }
 
 /*QUEM SOMOS*/
