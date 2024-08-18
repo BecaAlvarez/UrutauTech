@@ -1,28 +1,25 @@
 header, .apresentacao{
-    position: absolute;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header{
-    height: 14%;
+    height: 140px;
     background-color: rgba(0, 0, 0, 0.5); 
     backdrop-filter: blur(10px);
     z-index: 2;
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 0px 60px;
+    position: absolute;
 }
 
 .apresentacao{
     background: url('../assets//bg_apresentacao.jpg') center/cover no-repeat;
     height: 85vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
+    position: relative;
 }
 
 /*COMPONENTES HEADER*/
@@ -56,26 +53,14 @@ h1{
     margin-bottom: 30px;
 }
 
-.btn-primary {
-    color: var(--color-black);
-    background-color: var(--color-primary);
-    border: none;
-}
-
-.btn-primary:hover {
-    color: var(--color-primary);
-    background-color: var(--color-black);
-    border: none;
-}
-
-.btn{
+.apresentacao > .container-md > .btn{
     border-radius: .99rem;
     padding: .600rem .99rem;
     width: 200px;
     font-weight: 500;
 }
 
-.container-md{
+.apresentacao > .container-md{
     width: 60%;
     height: 40%;
     background-color: rgba(80, 80, 80, 0.6); 
@@ -86,18 +71,42 @@ h1{
     justify-content: center;
 }
 
+.apresentacao > .container-lg{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 30%;
+    z-index: 2;
+}
+
+.container-area-square{
+    width: 200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
 /*RESPONSIVIDADE*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 823px) {
     header {
         height: auto;
         flex-direction: column;
         justify-content: center;
         padding: 0px;
+        position: static;
+        background-color: var(--color-neutral-400);
     }
     header > img{
         width: 80px;
         height: 80px;
-        border-radius: 100px;
     }
 
     header > nav{
@@ -112,11 +121,32 @@ h1{
     }
 
     .apresentacao{
-        align-items: flex-end;
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
     }
 
-    .container-md{
-        margin-bottom: 80px;
+    .apresentacao > .container-md{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 20px 10px;
+    }
+
+    .apresentacao > .container-md > .btn{
+        width: auto;
+    }
+
+    .apresentacao > .container-lg{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas com largura igual */
+        gap: 8px;
+    }
+
+    .container-area-square{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
     }
 }
 
