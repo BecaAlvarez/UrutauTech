@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--STYLES-->
-    <link rel="stylesheet" href="../UrutauTech/src/style/normalize.css">
-    <link rel="stylesheet" href="../UrutauTech/src/style/reset.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/reset.css">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../UrutauTech/src/style/global.css">
-    <link rel="stylesheet" href="../UrutauTech/src/style/apresentacao.css">
-    <link rel="stylesheet" href="../UrutauTech/src/style/quemsomos.css">
-    <link rel="stylesheet" href="../UrutauTech/src/style/nossotime.css">
-    <link rel="stylesheet" href="../UrutauTech/src/style/vantagens.css">
-    <link rel="stylesheet" href="../UrutauTech/src/style/atendimento.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/apresentacao.css">
+    <link rel="stylesheet" href="style/quemsomos.css">
+    <link rel="stylesheet" href="style/nossotime.css">
+    <link rel="stylesheet" href="style/vantagens.css">
+    <link rel="stylesheet" href="style/atendimento.css">
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
     <main>
         <!--HEADER-->
         <header>
-            <img alt="Logo Urutau Tech" src="../UrutauTech/src/assets/logo-urutauTech.png"/>
+            <img class="logotipo" alt="Logo Urutau Tech" src="./assets/UrutauTechlog.png"/>
             <nav>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
@@ -52,95 +52,133 @@
         <!--WIDGET APRESENTAÇÃO-->
         <section class="apresentacao flex-collumn-center" id="s01">
             <div class="container-md">
+                <img class="logo" alt="Logo Urutau Tech" src="./assets/logo-urutauTech.png"/>
                 <h1>
-                    Tecnologia & Inovação<br>Seu Empreendimento seguindo a evolução
+                    Tecnologia e inovação avançada para impulsionar o crescimento do seu <span>Empreendimento</span>
                 </h1>
                 <button type="button" class="btn btn-primary">Orçamento</button>
             </div>
             <div class="container-lg">
-                <div class="container-area-square rounded-3" style="background-color: white;">
-                    <img src="../UrutauTech/src/assets/laptop.svg" style="margin-bottom: 10px;"/>
+                <div class="container-area-square rounded-3 card">
+                    <img src="./assets/laptop.svg" style="margin-bottom: 10px;"/>
                     <h6>Sistemas<br>Comerciais</h6>
                 </div>
-                <div class="container-area-square rounded-3" style="background-color: white;">
-                    <img src="../UrutauTech/src/assets/phone.svg" style="margin-bottom: 10px;"/>
+                <div class="container-area-square rounded-3 card" >
+                    <img src="./assets/phone.svg" style="margin-bottom: 10px;"/>
                     <h6>Aplicativos Mobile</h6>
                 </div>
-                <div class="container-area-square rounded-3" style="background-color: white;">
-                    <img src="../UrutauTech/src/assets/robot.svg" style="margin-bottom: 10px;"/>
+                <div class="container-area-square rounded-3 card" >
+                    <img src="./assets/robot.svg" style="margin-bottom: 10px;"/>
                     <h6>Automatização</h6>
                 </div>
-                <div class="container-area-square rounded-3" style="background-color: white;">
-                    <img src="../UrutauTech/src/assets/globe.svg" style="margin-bottom: 10px;"/>
+                <div class="container-area-square rounded-3 card">
+                    <img src="./assets/globe.svg" style="margin-bottom: 10px;"/>
                     <h6>Web site</h6>
                 </div>
             </div>
         </section>
         <!--WIDGET QUEM SOMOS-->
         <section class="quemsomos flex-collumn flex-wrap" id="s02">
-            <div class="titlesomos flex-row d-flex">
-                <img src="../UrutauTech/src/assets/buildings.svg"/>
-                <h2 style="color: var(--color-primary);">Quem Somos</h2>
+            <div class="title-section flex-row d-flex">
+                <img src="./assets/buildings.svg"/>
+                <h2 class="ms-3">Quem Somos</h2>
             </div>
-            <div class="container-lg d-flex flex-row rounded-3 contenier-content">
-                <div class="col-md-6">
-                    <img src="../UrutauTech/src/assets/img_suport_quemsomos.jpg" class="img-fluid rounded-start" alt="Quem somos">
+            <div class="contanier-content-general container-md">
+                <div class="col-md-6 d-flex flex-collumn-center rounded-3 contenier-content flex-wrap">
+                
+                    <img src="./assets/team.jpg" class="img-fluid img-one" alt="Quem somos">
+       
+                    <p class="card-text mt-4" style="color: white;">
+                        Somos uma startup formada por estudantes universitários que buscamos inovar ao oferecer soluções de software personalizadas para o varejo. 
+                        Criamos <span>de gestão de estoque, plataformas de e-commerce e integrações com pagamentos digitais</span> 
+                        adaptando cada serviço às necessidades específicas dos clientes. 
+                    </p> 
                 </div>
-                <div class="col-md-6 ms-2">
+                <div class="col-md-4 d-flex flex-collumn-center rounded-3 contenier-content flex-wrap"> 
+                
                     <p class="card-text" style="color: white;">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type 
-                        specimen book. It has survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type 
-                        specimen book. It has survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged
+                        Combinando conhecimento técnico e uma visão atualizada do mercado, a startup utiliza tecnologias como <span>inteligência artificial e análise de dados</span> 
+                        para melhorar a eficiência operacional e a experiência do consumidor, tudo a preços acessíveis e com atendimento próximo e personalizado. 
                     </p>
+                 
+                    <img src="./assets/dados.jpg" class="img-fluid img-one" alt="Quem somos">
+                    
                 </div>
             </div>
                 
         </section>
         <!--WIDGET VANTAGENS-->
-        <section class="vantagens black-transparent" id="s03">
-            <div class="flex-row-center d-flex justify-content-start">
-                <img src="../UrutauTech/src/assets/vantagens.svg"/>
-                <h2 style="color: var(--color-primary);">Vantagens</h2>
+        <section class="vantagens  w-100 flex-collumn" id="s03">
+            <div class="d-flex title-section">
+                <img src="./assets/vantagens.svg"/>
+                <h2 class="ms-3">Vantagens</h2>
             </div>
-            <div class="flex-row-center">
-                <div class="container-area-square rounded-3" style="background-color: rgba(0, 0, 0, 0.9);">
-                    <h5>3 meses de Manutenção</h5>
-                    <p>
-                        Aqui, sua empresa conta com uma 3 meses de manutenção totalmente gratuita
-                    </p>
+            <div class="flex-collumn-center contanier-second justify-content-between">
+                <div class="flex-row-center justify-content-between w-100 contanier-vantagens">
+                    <div class="card contanier-vantagem rounded-3" >
+                        <h5>3 meses de Manutenção</h5>
+                        <p>
+                            Aqui, sua empresa conta com uma 3 meses de manutenção totalmente gratuita
+                        </p>
+                    </div>
+                    <div class="card contanier-vantagem rounded-3" >
+                        <h5>1 LandPage</h5>
+                        <p>
+                            Ao adquirir qualquer um dos nossos produtos, a urutaua tech lhe dar 1 Land Page por nossa conta. Pode ser solicitada no periodo maximo de 6 meses
+                        </p>
+                    </div>
+                    <div class="card contanier-vantagem rounded-3" >
+                        <h5>1 LandPage</h5>
+                        <p>
+                            Ao adquirir qualquer um dos nossos produtos, a urutaua tech lhe dar 1 Land Page por nossa conta. Pode ser solicitada no periodo maximo de 6 meses
+                        </p>
+                    </div>
+                    <div class="card contanier-vantagem rounded-3" >
+                        <h5>Design Personalizado</h5>
+                        <p>
+                            Contamos com uma equipe super criativa para deixar o produto com a cara do seu empreendimento. você irá amar
+                        </p>
+                    </div>  
                 </div>
-                <div class="container-area-square rounded-3" style="background-color: rgba(0, 0, 0, 0.9);">
-                    <h5>1 LandPage</h5>
-                    <p>
-                        Ao adquirir qualquer um dos nossos produtos, a urutaua tech lhe dar 1 Land Page por nossa conta. Pode ser solicitada no periodo maximo de 6 meses
-                    </p>
-                </div>
-                <div class="container-area-square rounded-3" style="background-color: rgba(0, 0, 0, 0.9);">
-                    <h5>1 LandPage</h5>
-                    <p>
-                        Ao adquirir qualquer um dos nossos produtos, a urutaua tech lhe dar 1 Land Page por nossa conta. Pode ser solicitada no periodo maximo de 6 meses
-                    </p>
-                </div>
-                <div class="container-area-square rounded-3" style="background-color: rgba(0, 0, 0, 0.9);">
-                    <h5>Design Personalizado</h5>
-                    <p>
-                        Contamos com uma equipe super criativa para deixar o produto com a cara do seu empreendimento. você irá amar
-                    </p>
-                </div>  
+                    
+                <button type="button" class="btn btn-primary mt-5">Orçamento</button>
+                <p class="text-white mt-5">Aproveite as vantagens e peça um orçamento totalmente gratuito!</p>
             </div>
-                
-            <button type="button" class="btn btn-primary">Orçamento</button>
         </section>
         <!--WIDGET NOSSO TIME-->
         <section class="nossotime" id="s04">
+            <div class="d-flex title-section">
+                <img src="./assets/time.svg"/>
+                <h2 class="ms-3">Time</h2>
+            </div>
+            <div>
+                <h5>Rebeca Alvarez</h5>
+                <img src="../src/assets/rebecafake.png" class="d-block avatar" alt="...">
+                <div class="card infors">
+                    <h6>Desenvolvedora Frontend</h6>
+                    <p>Estudante de Engenharia da Computação, Designer gráfico, apaixonada por arte, cultura e tecnologia.</p>
+                </div>
+            </div>
 
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="infors">
+                        <img src="../src/assets/rebecafake.png" class="d-block avatar" alt="...">
+                        <h5>Rebeca Alvarez</h5>
+                        <p>Desenvolvedora Frontend</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev rounded-circle setas" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next rounded-circle setas" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
         <!--WIDGET ATENDIMENTO-->
         <section class="atendimento" id="s05">
