@@ -1,22 +1,38 @@
 .quemsomos{
-    height: 170vh;
-    background: rgba(0, 0, 0, 0.8) url('../assets/bg_quemsomos_vantagens.jpg') center/cover no-repeat;
-    background-blend-mode: multiply;
+    height: auto;
+    padding-top: 6%;
+    padding-bottom: 4%;
 }
 
-.titlesomos{
-    margin-left: 16%;
-    padding-top: 10%;
+
+.contanier-content-general{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .contenier-content{
-    background-color: var(--color-neutral-400);
-    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--color-neutral-dark);
+
 }
 
+.img-one{
+    width: 90%;
+    height: 45%;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--br-20);
+}
+
+.contenier-content > p{
+    width: 90%;
+    text-align: justify;
+}
+
+
 /*QUEM SOMOS*/
-
-
 @media screen and (max-width: 823px) {
 
 }

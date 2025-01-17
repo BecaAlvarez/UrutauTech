@@ -1,0 +1,17 @@
+.vantagens{
+    height: 100vh;
+    background: 
+        url('../assets/bg-logo.png') no-repeat center / 54%, /* Camada da imagem */
+        var(--color-neutral-500); /* Camada da cor */
+}
+
+.contanier-vantagens{
+    padding-top: 40px;
+}
+
+.contanier-vantagem{
+    height: 30%;
+    width: 23%;
+    padding: 2%;
+}
+
