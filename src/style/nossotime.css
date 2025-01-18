@@ -1,29 +1,67 @@
+.nossotime{
+    height: 80vh;
+    
+}
+
 .avatar{
-    width: 15%;
+    width: 100%;
     height: auto;
+    
+}
+
+.card-individual{
     position: relative;
+    z-index: 2;
+    width: 16%;
+    justify-content: center; 
+    align-items: center;    
+}
+
+
+
+.card-individual > div{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
 }
 
 .infors{
-    flex-wrap: wrap;
-    position: absolute;
-    z-index: 1;
-    width: 12%;
-    height: 10%;
+    padding: 8px 5px;
 }
 
-.infors > h6{
-    color: var(--color-primary-dark);
-}
 
 .infors > p {
     color: white;
-    font-size: 14px;
+    font-size: 0.8rem;
     justify-content: center;
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
 
-.setas{
-    background-color: var(--color-primary-dark);
+.infors > p:first-child{
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.nossotime button{
+    background-color: var(--color-neutral-400);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
+    width: 60px;
+    height: 60px;
+    margin: 0px 40%;
+}
+
+.nossotime h6{
+    background-color: var(--color-neutral-100);
+    padding: 5px;
+    border-radius: 5px;
+    width: 125px;
+    text-align: center;
 }

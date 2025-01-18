@@ -107,4 +107,6 @@ h2{
     flex-wrap: wrap;
     text-align: center;
     color: white;
+    width: auto;
+    height: auto;
 }
