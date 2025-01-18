@@ -1,6 +1,7 @@
 .nossotime{
     height: 80vh;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .avatar{
@@ -9,15 +10,27 @@
     
 }
 
+
+.carrousel-contanier{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carrousel-contanier + div{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
 .card-individual{
     position: relative;
     z-index: 2;
     width: 16%;
     justify-content: center; 
-    align-items: center;    
+    align-items: center;
+        
 }
-
-
 
 .card-individual > div{
     position: absolute;
@@ -53,9 +66,10 @@
     background-color: var(--color-neutral-400);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     margin: 0px 40%;
+    border-radius: 100%;
 }
 
 .nossotime h6{
