@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 120%;
 }
 
 .carrousel-contanier + div{
@@ -29,7 +30,7 @@
     width: 16%;
     justify-content: center; 
     align-items: center;
-        
+    margin: 0px 10px;
 }
 
 .card-individual > div{
