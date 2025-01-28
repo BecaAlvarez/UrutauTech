@@ -1,5 +1,5 @@
 .atendimento{
-    background: rgba(0, 0, 0, 0.6) url('/src/assets/bg_atendimento.jpg') top/cover no-repeat;
+    background: rgba(0, 0, 0, 0.7) url('/src/assets/bg_atendimento.jpg') top/cover no-repeat;
     background-blend-mode: multiply;
     width: 100vw;
     height: 100vh;
@@ -36,6 +36,10 @@
     padding: 15px;
 }
 
+.atendimento > div:last-child > form > input::placeholder{
+    color: white;
+}
+
 .atendimento > div:last-child > form > textarea{
     border-radius: 20px;
     background-color: var(--color-black);
@@ -44,7 +48,11 @@
     padding: 15px;
 }
 
+.atendimento > div:last-child > form > textarea::placeholder{
+    color: white;
+}
+
 .atendimento > div:last-child > form > button{
     border-radius: 25px;
-    padding: 8px 0px;
+    padding: 10px 0px;
 }
