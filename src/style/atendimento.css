@@ -1,0 +1,50 @@
+.atendimento{
+    background: rgba(0, 0, 0, 0.6) url('/src/assets/bg_atendimento.jpg') top/cover no-repeat;
+    background-blend-mode: multiply;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.atendimento > div:last-child{
+    height: 60%;
+}
+
+
+.atendimento > div:last-child > h5{
+    color: var(--color-primary)
+}
+
+.atendimento > div:last-child > div > p{
+    color: white;
+}
+
+.atendimento > div:last-child > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32%;
+    height: 70%;
+}
+
+.atendimento > div:last-child > form > input{
+    border-radius: 25px;
+    background-color: var(--color-black);
+    border: none;
+    padding: 15px;
+}
+
+.atendimento > div:last-child > form > textarea{
+    border-radius: 20px;
+    background-color: var(--color-black);
+    border: none;
+    height: 150px;
+    padding: 15px;
+}
+
+.atendimento > div:last-child > form > button{
+    border-radius: 25px;
+    padding: 8px 0px;
+}
