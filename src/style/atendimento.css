@@ -17,9 +17,6 @@
     color: var(--color-primary)
 }
 
-.atendimento > div:last-child > div > p{
-    color: white;
-}
 
 .atendimento > div:last-child > form{
     display: flex;
