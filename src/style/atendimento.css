@@ -71,7 +71,7 @@ footer > div > div > p{
 }
 
 .linha-horizontal{
-    width: 90%;
+    width: 70%;
     height: 1px;
     background-color: var(--color-primary);
     margin: 30px 0px;
