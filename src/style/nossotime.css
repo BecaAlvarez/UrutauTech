@@ -10,12 +10,18 @@
     
 }
 
+.carrossel {
+    position: relative;
+    width: 100vw;
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa a tela */
+}
 
 .carrousel-contanier{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 120%;
+    transition: transform 0.5s ease-in-out; /* Animação suave ao mover */
 }
 
 .carrousel-contanier + div{
@@ -67,9 +73,8 @@
     background-color: var(--color-neutral-400);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
-    width: 80px;
-    height: 80px;
-    margin: 0px 40%;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     border: 0px;
 }

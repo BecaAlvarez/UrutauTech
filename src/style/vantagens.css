@@ -3,6 +3,7 @@
     background: 
         url('../assets/bg-logo.png') no-repeat center / 54%, /* Camada da imagem */
         var(--color-neutral-500); /* Camada da cor */
+    padding-top: 120px;
 }
 
 .contanier-vantagens{

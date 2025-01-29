@@ -16,7 +16,7 @@
 .contenier-content{
     flex-wrap: wrap;
     background-color: var(--color-neutral-dark);
-
+    border-radius: 20px;
 }
 
 .img-one{

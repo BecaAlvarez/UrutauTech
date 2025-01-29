@@ -1,0 +1,22 @@
+footer > div > div > h6{
+    color: var(--color-primary);
+}
+
+footer > div > div > p{
+    font-size: 0.8rem;
+}
+
+
+.linha-vertical{
+    width: 1px;
+    height: 100px;
+    background-color: var(--color-primary);
+    margin: 0 20px;
+}
+
+.linha-horizontal{
+    width: 70%;
+    height: 1px;
+    background-color: var(--color-primary);
+    margin: 30px 0px;
+}
