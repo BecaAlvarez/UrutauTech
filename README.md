@@ -1,4 +1,4 @@
-# Projeto 💻
+# Projeto 🚀
 Esse projeto está sendo desenvolvido para o grupo Urutau Tech a fim de apresentar a empresa e seu negócio. Assim, captar clientes, os quais estão em busca de serviços na produção de Software
 ![Image](https://github.com/user-attachments/assets/217b004c-27aa-45f8-8fb8-d9cf0ef2b982)
 
@@ -13,7 +13,7 @@ Marca desenvolvida por Rebeca Alvarez
 [Link do projeto no Figma](https://www.figma.com/design/vHvcq36F6YRc6fmtFQ9WsO/urutec?node-id=0-1&t=17nriPXmspttpF01-1)
 
 Projetado por Rebeca Alvarez
-# Tecnologias 👩‍💻
+# Tecnologias 💻
 * Javascript
 
 * HTML / CSS
@@ -21,3 +21,9 @@ Projetado por Rebeca Alvarez
 * Bootstrap
 
 * Google Apis
+
+# Como executar 👩‍💻
+
+# Créditos e Licença
+
+MIT
