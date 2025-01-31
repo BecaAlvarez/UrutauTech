@@ -24,6 +24,6 @@ Projetado por Rebeca Alvarez
 
 # Como executar 👩‍💻
 
-# Créditos e Licença
+# Créditos e Licença 📜
 
 MIT
