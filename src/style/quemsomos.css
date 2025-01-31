@@ -2,6 +2,9 @@
     height: auto;
     padding-top: 6%;
     padding-bottom: 4%;
+    background: 
+        url('../assets/pattern.png') no-repeat center / 100%, 
+        var(--color-neutral-500);
 }
 
 
