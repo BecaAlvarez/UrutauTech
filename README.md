@@ -1,5 +1,6 @@
 # Projeto 🚀
-Esse projeto está sendo desenvolvido para o grupo Urutau Tech a fim de apresentar a empresa e seu negócio. Assim, captar clientes, os quais estão em busca de serviços na produção de Software
+Este projeto está sendo desenvolvido para o grupo Urutau Tech com o objetivo de promover a empresa e seus serviços, destacando sua expertise na produção de software. A iniciativa visa atrair clientes que buscam soluções tecnológicas inovadoras e de alta qualidade, fortalecendo a presença da Urutau Tech no mercado.
+
 ![Image](https://github.com/user-attachments/assets/217b004c-27aa-45f8-8fb8-d9cf0ef2b982)
 
 Marca desenvolvida por Rebeca Alvarez
