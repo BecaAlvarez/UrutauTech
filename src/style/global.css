@@ -107,7 +107,18 @@ h2{
     flex-wrap: wrap;
     text-align: center;
     color: white;
-    width: auto;
-    height: auto;
     border-radius: 20px;
+    box-sizing: content-box;
+}
+
+
+@media(max-width: 1110px){
+    
+    .quemsomos,
+    .vantagens,
+    .atendimento,
+    .nossotime{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 }

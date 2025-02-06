@@ -11,14 +11,16 @@
 .contanier-content-general{
     display: flex;
     flex-direction: row;
+    gap: 8;
     flex-wrap: wrap;
     justify-content: space-around;
+    box-sizing: content-box;
 }
 
 .contenier-content{
-    flex-wrap: wrap;
     background-color: var(--color-neutral-dark);
     border-radius: 20px;
+    box-sizing:border-box;
 }
 
 .img-one{
@@ -36,6 +38,8 @@
 
 
 /*QUEM SOMOS*/
-@media screen and (max-width: 823px) {
-
+@media screen and (max-width: 1110px) {
+    .contenier-content > p{
+        font-size: 0.9rem;
+    }
 }
