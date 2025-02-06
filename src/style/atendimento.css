@@ -18,12 +18,16 @@
 }
 
 
-.atendimento > div:last-child > form{
+form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 32%;
+    width: 40%;
     height: 70%;
+}
+
+.atendimento > div > div{
+    width: 30%;
 }
 
 .atendimento > div:last-child > form > input{
@@ -33,11 +37,12 @@
     padding: 15px;
 }
 
-.atendimento > div:last-child > form > input::placeholder{
-    color: white;
+input::placeholder,
+textarea::placeholder{
+    color: #cacaca;
 }
 
-.atendimento > div:last-child > form > textarea{
+textarea{
     border-radius: 20px;
     background-color: var(--color-black);
     border: none;
@@ -45,12 +50,12 @@
     padding: 15px;
 }
 
-.atendimento > div:last-child > form > textarea::placeholder{
-    color: white;
-}
 
 .atendimento > div:last-child > form > button{
     border-radius: 25px;
     padding: 10px 0px;
 }
 
+@media screen and (max-width: 1500px) {
+    
+}
