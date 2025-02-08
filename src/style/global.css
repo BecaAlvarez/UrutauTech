@@ -122,4 +122,9 @@ h2{
         padding-left: 70px;
         padding-right: 70px;
     }
+
+    .title-section{
+        justify-content: center;
+    }
+
 }

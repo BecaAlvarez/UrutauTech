@@ -14,7 +14,8 @@
 
 
 .atendimento > div:last-child > h5{
-    color: var(--color-primary)
+    color: var(--color-primary);
+    text-align: center;
 }
 
 
@@ -27,7 +28,8 @@ form{
 }
 
 .atendimento > div > div{
-    width: 30%;
+    width: 50%;
+    flex-wrap: wrap;
 }
 
 .atendimento > div:last-child > form > input{
@@ -56,6 +58,11 @@ textarea{
     padding: 10px 0px;
 }
 
-@media screen and (max-width: 1500px) {
-    
+@media screen and (max-width: 900px) {
+    .atendimento > div:last-child{
+        height: 70%;
+    }
+    form{
+        width: 70%;
+    }
 }

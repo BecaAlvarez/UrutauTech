@@ -20,3 +20,16 @@ footer > div > div > p{
     background-color: var(--color-primary);
     margin: 30px 0px;
 }
+
+@media(max-width: 1110px){
+    footer > div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .linha-vertical{
+        display: none;
+    }
+    
+
+}

@@ -18,10 +18,20 @@ header{
 }
 
 .apresentacao{
-    background: rgba(0, 0, 0, 0.6) url('../assets//bg_apresentacao.jpg') center/cover no-repeat;
-    background-blend-mode: multiply;
+    background: var(--color-neutral-500);
     height: 85vh;
     position: relative;
+}
+
+
+.apresentacao > div:first-child{
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.carousel-inner{
+    height: 85%;
 }
 
 /*COMPONENTES HEADER*/
