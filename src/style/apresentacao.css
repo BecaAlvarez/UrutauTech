@@ -30,8 +30,30 @@ header{
     background-color: transparent;
 }
 
+/*carousel*/
+
 .carousel-inner{
     height: 85%;
+}
+
+
+.carousel-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.carousel-item img {
+    position: relative;
+    z-index: 0;
 }
 
 /*COMPONENTES HEADER*/
