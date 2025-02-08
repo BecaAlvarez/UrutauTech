@@ -13,14 +13,14 @@
 .carrossel {
     position: relative;
     width: 100vw;
-    overflow: hidden; /* Esconde o conteúdo que ultrapassa a tela */
+    overflow: hidden;
 }
 
 .carrousel-contanier{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    transition: transform 0.5s ease-in-out; /* Animação suave ao mover */
+    transition: transform 0.5s ease-in-out; 
 }
 
 .carrousel-contanier + div{
