@@ -24,7 +24,9 @@ Projetado por Rebeca Alvarez
 * Google Apis
 
 # Como executar 👩‍💻
-Faça o clone do projeto e execute o arquivo index.html 
+1 - Faça o clone do projeto 
+
+2 - Abra o arquivo index.html no localhost do seu navegador.
 
 # Créditos e Licença 📜
 
