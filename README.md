@@ -7,7 +7,6 @@ Os estilos padrão e o desenvolvimento foram planejados seguindo a abordagem Des
 
 ![Image](https://github.com/user-attachments/assets/217b004c-27aa-45f8-8fb8-d9cf0ef2b982)
 
-Marca desenvolvida por Rebeca Alvarez
 # Protótipo 🎨 
 ![Image](https://github.com/user-attachments/assets/70386a4e-59fd-4a94-a6f8-337b16656497)
 ![Image](https://github.com/user-attachments/assets/30a58aa7-78eb-43d3-9e68-ea49194871f3)
