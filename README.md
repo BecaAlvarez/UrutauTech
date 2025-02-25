@@ -14,7 +14,7 @@ Os estilos padrão e o desenvolvimento foram planejados seguindo a abordagem Des
 ![Image](https://github.com/user-attachments/assets/bf9e385a-8359-48a0-80df-fd0232a7af04)
 ![Image](https://github.com/user-attachments/assets/42c6fc63-0e8b-4144-bbcd-e8147da03876)
 
-[Link do projeto no Figma](https://www.figma.com/design/vHvcq36F6YRc6fmtFQ9WsO/urutec?node-id=0-1&t=17nriPXmspttpF01-1)
+Interface construída no Figma
 
 Projetado por Rebeca Alvarez
 # Tecnologias 💻
