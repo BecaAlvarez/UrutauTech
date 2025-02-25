@@ -2,6 +2,7 @@
 
 # Projeto 🚀
 Este projeto está sendo desenvolvido para o grupo Urutau Tech com o objetivo de promover a empresa e seus serviços, destacando sua expertise na produção de software. A iniciativa visa atrair clientes que buscam soluções tecnológicas inovadoras e de alta qualidade, fortalecendo a presença da Urutau Tech no mercado.
+Os estilos padrão e o desenvolvimento foram planejados seguindo a abordagem Desktop First, garantindo uma experiência otimizada para telas maiores antes de adaptações para dispositivos móveis
 
 ![Image](https://github.com/user-attachments/assets/217b004c-27aa-45f8-8fb8-d9cf0ef2b982)
 
